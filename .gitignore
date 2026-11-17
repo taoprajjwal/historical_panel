@@ -1,0 +1,47 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Raw, intermediate, and generated research data
+historical_panel/data/
+data/
+usa_*.dat
+usa_*.dat.gz
+usa_*.xml
+*.download.json
+*.parquet
+*.feather
+*.dta
+*.sav
+*.sas7bdat
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Generated compressed tables and logs
+*.csv.gz
+*.log
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/

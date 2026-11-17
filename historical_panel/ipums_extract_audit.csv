@@ -1,0 +1,109 @@
+variable,label,start,end,width,type,decimals,requested_selection,selected_for_initial_county_aggregation,role
+YEAR,Census year,1,4,4,numeric,0,True,True,requested
+SAMPLE,IPUMS sample identifier,5,10,6,numeric,0,True,True,requested
+SERIAL,Household serial number,11,18,8,numeric,0,True,True,requested
+HHWT,Household weight,19,28,10,numeric,2,True,True,requested
+REGION,Census region and division,29,30,2,numeric,0,True,True,requested
+STATEICP,State (ICPSR code),31,32,2,numeric,0,True,True,requested
+STATEFIP,State (FIPS code),33,34,2,numeric,0,True,True,requested
+COUNTYICP,"County (ICPSR code, identifiable counties only)",35,38,4,numeric,0,True,True,requested
+COUNTYNHG,"County (NHGIS code, identifiable counties only)",39,45,7,numeric,0,True,True,requested
+METRO,Metropolitan status (where determinable),46,46,1,numeric,0,True,True,requested
+METAREA,"Metropolitan area (pre-2013 delineations, identifiable areas only) [general version]",47,49,3,numeric,0,True,True,requested
+METAREAD,"Metropolitan area (pre-2013 delineations, identifiable areas only) [detailed version]",50,53,4,numeric,0,False,False,IPUMS detailed companion
+CITY,City (identifiable cities only),54,57,4,numeric,0,True,True,requested
+CITYPOP,City population (identifiable cities only),58,64,7,numeric,0,True,True,requested
+SIZEPL,Size of place,65,66,2,numeric,0,True,True,requested
+URBAN,Urban/rural status,67,67,1,numeric,0,True,True,requested
+URBPOP,Population of urban places,68,74,7,numeric,0,True,True,requested
+SEA,State Economic Area,75,77,3,numeric,0,True,True,requested
+GQ,Group quarters status,78,78,1,numeric,0,True,True,requested
+GQTYPE,Group quarters type [general version],79,79,1,numeric,0,True,True,requested
+GQTYPED,Group quarters type [detailed version],80,82,3,numeric,0,False,False,IPUMS detailed companion
+FARM,Farm status,83,83,1,numeric,0,True,True,requested
+OWNERSHP,Ownership of dwelling (tenure) [general version],84,84,1,numeric,0,True,True,requested
+OWNERSHPD,Ownership of dwelling (tenure) [detailed version],85,86,2,numeric,0,False,False,IPUMS detailed companion
+MORTGAGE,Mortgage status,87,87,1,numeric,0,True,True,requested
+RENT,Monthly contract rent,88,91,4,numeric,0,True,True,requested
+RENT30,"Monthly contract rent, 1930",92,95,4,numeric,0,True,True,requested
+VALUEH,House value,96,102,7,numeric,0,True,True,requested
+RADIO30,"Radio, 1930",103,103,1,numeric,0,True,True,requested
+MULTGEN,Multigenerational household [general version],104,104,1,numeric,0,True,True,requested
+MULTGEND,Multigenerational household [detailed version],105,106,2,numeric,0,False,False,IPUMS detailed companion
+PERNUM,Person number in sample unit,107,110,4,numeric,0,True,True,requested
+PERWT,Person weight,111,120,10,numeric,2,True,True,requested
+SLWT,Sample-line weight,121,130,10,numeric,2,True,True,requested
+FAMUNIT,Family unit membership,131,132,2,numeric,0,True,True,requested
+FAMSIZE,Number of own family members in household,133,134,2,numeric,0,True,True,requested
+MOMLOC,Mother's location in the household,135,136,2,numeric,0,True,True,requested
+POPLOC,Father's location in the household,137,138,2,numeric,0,True,True,requested
+SPLOC,Spouse's location in household,139,140,2,numeric,0,True,True,requested
+NCHILD,Number of own children in the household,141,141,1,numeric,0,True,True,requested
+NCHLT5,Number of own children under age 5 in household,142,142,1,numeric,0,True,True,requested
+RELATE,Relationship to household head [general version],143,144,2,numeric,0,True,True,requested
+RELATED,Relationship to household head [detailed version],145,148,4,numeric,0,False,False,IPUMS detailed companion
+SEX,Sex,149,149,1,numeric,0,True,True,requested
+AGE,Age,150,152,3,numeric,0,True,True,requested
+MARST,Marital status,153,153,1,numeric,0,True,True,requested
+BIRTHYR,Year of birth,154,157,4,numeric,0,True,True,requested
+RACE,Race [general version],158,158,1,numeric,0,True,True,requested
+RACED,Race [detailed version],159,161,3,numeric,0,False,False,IPUMS detailed companion
+BPL,Birthplace [general version],162,164,3,numeric,0,True,True,requested
+BPLD,Birthplace [detailed version],165,169,5,numeric,0,False,True,IPUMS detailed companion
+MBPL,Mother's birthplace [general version],170,172,3,numeric,0,True,True,requested
+MBPLD,Mother's birthplace [detailed version],173,177,5,numeric,0,False,True,IPUMS detailed companion
+FBPL,Father's birthplace [general version],178,180,3,numeric,0,True,True,requested
+FBPLD,Father's birthplace [detailed version],181,185,5,numeric,0,False,True,IPUMS detailed companion
+NATIVITY,Foreign birthplace or parentage,186,186,1,numeric,0,True,True,requested
+CITIZEN,Citizenship status,187,187,1,numeric,0,True,True,requested
+YRIMMIG,Year of immigration,188,191,4,numeric,0,True,True,requested
+YRSUSA1,Years in the United States,192,193,2,numeric,0,True,True,requested
+YRSUSA2,"Years in the United States, intervalled",194,194,1,numeric,0,True,True,requested
+MTONGUE,Mother tongue [general version],195,196,2,numeric,0,True,True,requested
+MTONGUED,Mother tongue [detailed version],197,200,4,numeric,0,False,True,IPUMS detailed companion
+LANGUAGE,Language spoken [general version],201,202,2,numeric,0,True,True,requested
+LANGUAGED,Language spoken [detailed version],203,206,4,numeric,0,False,True,IPUMS detailed companion
+SPEAKENG,Speaks English,207,207,1,numeric,0,True,True,requested
+SCHOOL,School attendance,208,208,1,numeric,0,True,True,requested
+SCHLMNTH,Months in school,209,210,2,numeric,0,True,True,requested
+HIGRADE,Highest grade of schooling [general version],211,212,2,numeric,0,True,True,requested
+HIGRADED,Highest grade of schooling [detailed version],213,215,3,numeric,0,False,False,IPUMS detailed companion
+EDUC,Educational attainment [general version],216,217,2,numeric,0,True,True,requested
+EDUCD,Educational attainment [detailed version],218,220,3,numeric,0,False,False,IPUMS detailed companion
+LIT,Literacy,221,221,1,numeric,0,True,True,requested
+EMPSTAT,Employment status [general version],222,222,1,numeric,0,True,True,requested
+EMPSTATD,Employment status [detailed version],223,224,2,numeric,0,False,False,IPUMS detailed companion
+LABFORCE,Labor force status,225,225,1,numeric,0,True,True,requested
+CLASSWKR,Class of worker [general version],226,226,1,numeric,0,True,True,requested
+CLASSWKRD,Class of worker [detailed version],227,228,2,numeric,0,False,False,IPUMS detailed companion
+OCC,Occupation,229,232,4,numeric,0,True,True,requested
+OCC1950,"Occupation, 1950 basis",233,235,3,numeric,0,True,True,requested
+IND,Industry,236,239,4,numeric,0,True,True,requested
+IND1950,"Industry, 1950 basis",240,242,3,numeric,0,True,True,requested
+WKSWORK1,Weeks worked last year,243,244,2,numeric,0,True,True,requested
+HRSWORK1,Hours worked last week,245,246,2,numeric,0,True,True,requested
+MOUNEMP,Months unemployed last year,247,248,2,numeric,0,True,True,requested
+WKSUNEMP,Weeks unemployed last year,249,250,2,numeric,0,True,True,requested
+DURUNEMP,Continuous weeks unemployed,251,253,3,numeric,0,True,True,requested
+INCWAGE,Wage and salary income,254,259,6,numeric,0,True,True,requested
+INCNONWG,Had non-wage/salary income over $50,260,260,1,numeric,0,True,True,requested
+REALPROP,Real estate value,261,268,8,numeric,0,True,True,requested
+PERSPROP,Value of personal estate,269,276,8,numeric,0,True,True,requested
+OCCSCORE,Occupational income score,277,278,2,numeric,0,True,True,requested
+SEI,Duncan Socioeconomic Index ,279,280,2,numeric,0,True,True,requested
+PRESGL,"Occupational prestige score, Siegel",281,283,3,numeric,1,True,True,requested
+ERSCOR50,"Occupational earnings score, 1950 basis",284,287,4,numeric,1,True,True,requested
+EDSCOR50,"Occupational education score, 1950 basis",288,291,4,numeric,1,True,True,requested
+NPBOSS50,"Nam-Powers-Boyd occupational status score, 1950 basis",292,295,4,numeric,1,True,True,requested
+MIGRATE5,"Migration status, 5 years [general version]",296,296,1,numeric,0,True,True,requested
+MIGRATE5D,"Migration status, 5 years [detailed version]",297,298,2,numeric,0,False,False,IPUMS detailed companion
+MIGPLAC5,State or country of residence 5 years ago,299,301,3,numeric,0,True,True,requested
+MIGCOUNTYICP5,County of residence 5 years ago (ICPSR code),302,305,4,numeric,0,True,True,requested
+MIGMETAREA5,Metropolitan area of residence 5 years ago,306,309,4,numeric,0,True,True,requested
+MIGCITY5,City of residence 5 years ago,310,313,4,numeric,0,True,True,requested
+MIGSEA5,SEA of residence 5 years ago,314,316,3,numeric,0,True,True,requested
+SAMEPLAC5,Lived same incorporated place 5 years ago,317,317,1,numeric,0,True,True,requested
+VERSIONHIST,Release version for historical full counts,318,319,2,numeric,0,True,False,requested
+SAMESEA5,Lived same SEA 5 years ago,320,320,1,numeric,0,True,True,requested
+HISTID,Consistent historical data person identifier,321,356,36,character,0,True,False,requested
+SURSIM,Surname similarity,357,358,2,numeric,0,True,False,requested

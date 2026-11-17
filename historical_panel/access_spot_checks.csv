@@ -1,0 +1,9 @@
+measure,county_1940_id,county,state,census_year,snapshot_year,expected,observed,pass,review_note
+rail_connected,G1700310,Cook,Illinois,1880,1873,1,1,TRUE,Major Chicago rail hub intersects county polygon
+rail_connected,G3600610,New York,New York,1880,1873,1,1,TRUE,Mapped rail line intersects Manhattan county polygon
+rail_connected,G0800310,Denver,Colorado,1880,1873,1,1,TRUE,Denver connected before the 1880 census
+rail_connected,G0600750,San Francisco,California,1880,1873,0,0,TRUE,Strict line-polygon rule excludes rail terminating across the bay and ferry-mediated access
+water_access_area_share,G2500250,Suffolk,Massachusetts,1850,,near 1,0.996124,TRUE,Coastal Boston county
+water_access_area_share,G3600610,New York,New York,1850,,near 1,0.995889,TRUE,Harbor and navigable-water county
+water_access_area_share,G1700310,Cook,Illinois,1850,,near 1,0.999853,TRUE,Lake Michigan access
+water_access_area_share,G2300030,Aroostook,Maine,1850,,near 0,0.000004,TRUE,Inland northern county

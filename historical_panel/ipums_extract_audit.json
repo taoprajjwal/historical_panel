@@ -1,0 +1,29 @@
+{
+  "ddi_id": "ddi2-3ec00190-880e-013f-a0d4-02420a1c0305-usa_00002.dat-usa.ipums.org",
+  "data_filename": "usa_00002.dat",
+  "record_width": 358,
+  "physical_columns": 108,
+  "requested_variables": 93,
+  "requested_present": 92,
+  "requested_missing": [
+    "SLREC"
+  ],
+  "companion_columns": [
+    "BPLD",
+    "CLASSWKRD",
+    "EDUCD",
+    "EMPSTATD",
+    "FBPLD",
+    "GQTYPED",
+    "HIGRADED",
+    "LANGUAGED",
+    "MBPLD",
+    "METAREAD",
+    "MIGRATE5D",
+    "MTONGUED",
+    "MULTGEND",
+    "OWNERSHPD",
+    "RACED",
+    "RELATED"
+  ]
+}
